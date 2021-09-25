@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     Index = -1
-    isCounting = true
+    isCounting = false
     while (isCounting) {
         Index = Index + 1
         basic.showNumber(Index)
@@ -8,10 +8,10 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    isCounting = 0
+	
 })
 let Index = 0
-let isCounting = 0
+let isCounting = false
 basic.showString("Ready")
 isCounting = false
 basic.forever(function () {
