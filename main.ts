@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     Index = -1
-    isCounting = false
+    isCounting = true
     while (isCounting) {
         Index = Index + 1
         basic.showNumber(Index)
